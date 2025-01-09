@@ -37,10 +37,7 @@ class Solution {
       for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
             if (list.contains(entry.getValue())) { // Check if the frequency is in the top-k list
                 res[idx1++] = entry.getKey();
-                list.remove(entry.getValue()); // Remove the matched frequency to avoid duplicates
-                if (list.isEmpty()) {
-                    break; // Exit early if all top-k frequencies are matched
-                }
+                
             }
         }
 

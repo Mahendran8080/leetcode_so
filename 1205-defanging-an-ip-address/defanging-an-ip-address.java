@@ -9,12 +9,18 @@ class Solution {
             {
                 sb.append("[.]");
             }
-            else{
+            else
+            {
                 sb.append(ch);
             }
+
+
+
         }
 
         return sb.toString();
+
+
         
     }
 }

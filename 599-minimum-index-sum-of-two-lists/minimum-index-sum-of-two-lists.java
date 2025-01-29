@@ -3,7 +3,7 @@ class Solution {
 
         Map<String,Integer> map=new HashMap<>();
         List<String> li=new ArrayList<>();
-        int min=Integer.MAX_VALUE;
+        int min=2000;
 
         for(int i=0;i<list1.length;i++)
         {

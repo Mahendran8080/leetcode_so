@@ -19,7 +19,7 @@ class Solution {
             l++;
         }
 
-        return r;
+        return count;
         
     }
 }
